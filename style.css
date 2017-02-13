@@ -1,0 +1,264 @@
+
+#header {
+	background: #ffffff;
+	width: 100%;
+	position: relative;
+	top: 0;
+	border-bottom: 1px solid #696969;
+	padding: 10px;
+}
+
+#boxes {
+	position: relative;
+	margin: 100px;
+}
+
+.box1 {
+	width: 650px;
+	padding: 10px;
+	float: left;
+	background: #ffffff;
+	margin: 20px;
+	position: relative;
+	border: 1px solid #696969;
+}
+
+#profpic {
+	width: 300px;
+	height: auto;
+	float: left;
+	padding: 5px;
+	margin: 5px;
+}
+
+.box2 {
+	width: 270px;
+	padding: 5px;
+	float: left;
+	background: #ffffff;
+	margin: 20px;
+	position: relative;
+	border: 1px solid #696969;
+}
+
+#footer {
+	background: #696969;
+	width: 100%;
+	bottom: 0;
+	position: relative;
+	border-top: 2px solid #006400;
+	float: left;
+	margin-top: 10px;
+}
+
+#styledimage {
+	width: 27.5%;
+	margin: 5px;
+
+}
+
+.content {
+	margin: 5px;
+	padding: 5px;
+}
+
+.copywrite {
+	text-align: center;
+	color: #D3D3D3;
+}
+
+body {
+	background-image: url("old_moon.png");
+}
+
+h2 {
+	text-align: center;
+	color: #4aaaa5;
+}
+
+h1 {
+	background: #4aaaa5;
+	width: 15%;
+	float: left;
+	margin-left: 80px;
+	margin-right: 30px;
+	text-align: center;
+	color: white;
+	position: relative;
+}
+
+li {
+	float: right;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 5px
+	color: #777777;
+	margin-left: 30px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 20px;
+	padding: 10px;
+	color: #777777;
+	font-size: 20px;
+}
+
+.fixlist {
+	padding-right: 100px;
+}
+
+p {
+	color: #777777;
+}
+
+.form {
+	width: 100%;
+	color: gray;
+	font-size: 20px;
+}
+
+.forminput {
+	width: 350px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#formbutton {
+	background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+h3 span { 
+   	color: white; 
+   	font: bold 24px/45px Helvetica, Sans-Serif; 
+   	text-align: center;  
+   	background: #4aaaa5;
+  	padding: 15px; 
+   	top: 100px;
+   	left: 5px;
+  	position: relative;
+}
+
+.imageportfolio {
+	position: absolute; 
+  	width: 100%;
+}
+
+td {
+	height: 250px;
+	width: 50%;
+	overflow: auto;
+}
+
+
+/* 
+  These rules take effect when the browser's width
+  is either 768px or less.
+*/
+@media screen and (max-width: 980px) {
+
+  /* The body's bg color will be #333 */
+ /* body 
+
+    #main-content {
+
+    /* Positioning */
+  /*  float: left;
+    border: solid red 8px;
+    width: 100%;
+
+    /* Visual */
+   /* background: #fff;*//*
+*/
+}
+
+@media screen and (max-width: 768px) {
+
+   The body's bg color will be #333 
+  body { background-color: black; color: green;}
+
+    #boxes {
+
+     Positioning 
+    float: left;
+    width: 500px;
+    position: relative;
+}
+
+	.box1 {
+		float: left;
+		width: 100%;
+	}
+
+	textarea {
+		width: 100%;
+	}
+
+	td {
+		float: center;
+		margin: 10px;
+		display: block;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+
+  /* The body's bg color will be #333 
+ /* body { background-color: black; color: green;}*/
+
+    #boxes {
+    	/* Positioning */
+    	float: left;
+    	width: 100%;
+    	margin: 0px;
+	}
+
+	.box1 {
+		float: left;
+		width: 100%;
+		padding-left: 0px;
+	}
+
+	#profpic {
+		float: middle;
+	}
+
+	.content {
+		width: 100%;
+	}
+
+	h1 {
+		width: 100%;
+		float: left;
+	}
+
+	.box2 {
+		margin-bottom: 20px;
+		float: center;
+	}
+
+	.footer {
+		position: absolute;
+	}
+
+	textarea {
+		width: 100%;
+	}
+
+	td {
+		float: center;
+		margin: 10px;
+		display: block;
+	}
+
+
+/*   The wrapper's width will be 600px 
+.wrapper { width: 600px;}*/
